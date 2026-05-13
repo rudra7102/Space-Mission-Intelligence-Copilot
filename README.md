@@ -1,110 +1,266 @@
 # Space Mission Intelligence Copilot
-## Grounded Customer-Support Copilot with Tool Use and Preference Alignment
 
-### DS-615 Neural Networks & Deep Learning — Final Project
+## Grounded AI Copilot for Mission-Critical Aerospace Support
+
+Space Mission Intelligence Copilot is a grounded AI system designed for aerospace support workflows using Retrieval-Augmented Generation (RAG), semantic retrieval, tool-augmented reasoning, and preference-aligned response generation.
+
+The project addresses key limitations of general-purpose Large Language Models (LLMs) in mission-critical environments, including hallucinated outputs, lack of source grounding, unsafe responses, and inability to escalate low-confidence scenarios reliably.
 
 ---
 
-## 🚀 Quick Start
+# Live Demo
 
-### 1. Install Dependencies
-```bash
-pip install fastapi uvicorn chromadb pydantic pyyaml pandas sentence-transformers rouge-score
+https://space-mission-intelligence-copilot.onrender.com/
+
+---
+
+# Overview
+
+The system combines:
+
+* Retrieval-Augmented Generation (RAG)
+* Tool-aware reasoning
+* QLoRA fine-tuning
+* Direct Preference Optimization (DPO)
+* Semantic retrieval with vector databases
+* Hallucination prevention mechanisms
+* Human escalation workflows
+
+The architecture is designed to generate grounded, citation-aware, and reliable responses for aerospace-related queries.
+
+---
+
+# Key Features
+
+* Semantic retrieval over curated aerospace knowledge bases
+* Deterministic tool routing for specialized query handling
+* Citation-first grounded response generation
+* Knowledge-base relevance validation
+* Hallucination prevention using relevance guards
+* Human escalation support for low-confidence queries
+* FastAPI-based deployment architecture
+* Interactive frontend interface
+
+---
+
+# System Architecture
+
+```text
+User Query
+   ↓
+Space Domain Guard
+   ↓
+Deterministic Tool Router
+   ↓
+Tool Execution Layer
+   ↓
+KB Relevance Guard
+   ↓
+Grounded Response + Citations
 ```
 
-### 2. Generate Training Data
+---
+
+# Tools Implemented
+
+| Tool               | Purpose                                       |
+| ------------------ | --------------------------------------------- |
+| SearchKB           | Semantic search over aerospace knowledge base |
+| ComputeSuccessRate | Launch reliability statistics                 |
+| GetLaunchWindow    | Orbital transfer and launch window queries    |
+| GetPolicy          | NASA / ESA / ISRO policy retrieval            |
+| CreateTicket       | Escalation support for unresolved queries     |
+
+---
+
+# Models and Components
+
+| Component              | Model                 | Purpose                      |
+| ---------------------- | --------------------- | ---------------------------- |
+| Retriever              | all-MiniLM-L6-v2      | Semantic retrieval           |
+| Reranker               | CrossEncoder/ms-marco | Relevance ranking            |
+| Generator              | Mistral-7B + QLoRA    | Grounded response generation |
+| DPO Alignment          | Mistral-7B + DPO      | Preference optimization      |
+| Tool Policy Classifier | BERT-base             | Tool routing classification  |
+
+---
+
+# Training Pipeline
+
+The project includes custom-generated domain-specific datasets for multiple learning objectives.
+
+## Generated Datasets
+
+* 150 DPO preference pairs
+* 600 tool-policy classification samples
+* 80+ retriever contrastive pairs
+* 60+ reranker relevance pairs
+* 45+ supervised fine-tuning triples
+
+---
+
+# Data Sources
+
+The knowledge base and datasets were curated using verified aerospace sources, including:
+
+* SpaceX REST API
+* NASA Exoplanet Archive
+* ESA policy documents
+* ISRO mission documentation
+* Curated orbital mechanics references
+
+---
+
+# Evaluation Highlights
+
+* +85% Tool Selection Accuracy
+* 100% Escalation Recall
+* Improved grounding and citation quality
+* Sub-50ms average latency
+
+---
+
+# Custom Evaluation Metric
+
+## Mission-Criticality Accuracy (MCA)
+
+```text
+MCA(p, g) = 1.0 if |p − g| ≤ 0.05, else 0.0
+```
+
+This metric validates whether predicted mission statistics remain within ±5% of verified ground-truth values.
+
+---
+
+# Installation
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/rudra7102/Space-Mission-Intelligence-Copilot.git
+cd Space-Mission-Intelligence-Copilot
+```
+
+---
+
+## 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Running the Project
+
+## 1. Generate Training Data
+
 ```bash
 python -m data.generate_pairs
 ```
-This generates 5 data files in `data_storage/`:
-- `dpo_pairs.jsonl` (150 DPO preference pairs)
-- `tool_policy.jsonl` (600 tool classification samples)
-- `retriever_pairs.jsonl` (80+ contrastive pairs)
-- `reranker_pairs.jsonl` (60+ relevance pairs)
-- `generator_sft.jsonl` (45+ SFT triples)
 
-### 3. Enrich the Knowledge Base
+This generates:
+
+* DPO preference datasets
+* Tool-policy datasets
+* Retriever training pairs
+* Reranker datasets
+* Generator fine-tuning datasets
+
+---
+
+## 2. Build and Enrich Knowledge Base
+
 ```bash
 python -m data.enrich_kb
 ```
-Indexes 15 curated space-domain documents into ChromaDB.
 
-### 4. Start the Demo Server
+This indexes curated aerospace documents into ChromaDB.
+
+---
+
+## 3. Start the FastAPI Server
+
 ```bash
 python -m uvicorn serving.serve:app --host 0.0.0.0 --port 8000
 ```
-Then open **http://localhost:8000** in your browser.
 
-### 5. Run Evaluation (Baseline vs Copilot)
+Open the application in browser:
+
+```text
+http://localhost:8000
+```
+
+---
+
+# Evaluation
+
+## Run Evaluation Suite
+
 ```bash
 python -m evaluation.evaluate
 ```
 
-### 6. Run Latency Benchmark
+## Run Latency Benchmark
+
 ```bash
 python -m evaluation.benchmark
 ```
 
 ---
 
-## 📁 Project Structure
-```
-Trial project/
-├── agent/
-│   ├── copilot_agent.py        # Main agent with tool routing + relevance guard
-│   └── baseline_agent.py       # Naive RAG baseline for comparison
-├── data/
-│   ├── generate_pairs.py       # Training data generator (all 5 datasets)
-│   ├── enrich_kb.py            # KB document ingestion (15 documents)
-│   ├── build_kb.py             # Vector store builder
-│   └── ingest.py               # Data ingestion utilities
-├── models/
-│   ├── train_retriever.py      # (A) Contrastive retriever (MNR loss)
-│   ├── train_reranker.py       # (B) Cross-encoder reranker
-│   ├── train_generator.py      # (C) QLoRA Mistral-7B generator
-│   ├── train_dpo.py            # (D) DPO preference alignment
-│   └── train_tool_policy.py    # (E) BERT tool-policy classifier
-├── tools/
-│   ├── tools_registry.py       # 5 tools: SearchKB, ComputeSuccessRate, etc.
-│   └── tool_loop.py            # ReAct-style tool execution loop
-├── evaluation/
-│   ├── evaluate.py             # Full evaluation suite (20 queries)
-│   ├── metrics.py              # 8 metrics including novel MCA
-│   └── benchmark.py            # Latency/throughput benchmarking
-├── serving/
-│   ├── serve.py                # FastAPI server
-│   └── static/
-│       ├── index.html          # Glassmorphism UI
-│       ├── index.css           # Premium styling
-│       └── app.js              # Frontend logic
-├── report/
-│   ├── main.tex                # 8-page ACL format report
-│   └── references.bib          # 11 BibTeX citations
-├── config.yaml                 # All hyperparameters
-├── requirements.txt            # Python dependencies
-├── start_server.bat            # One-click server launch (Windows)
-└── README.md                   # This file
+# Project Structure
+
+```text
+agent/         → AI agent pipeline
+data/          → dataset generation & ingestion
+models/        → training scripts
+tools/         → tool execution framework
+evaluation/    → evaluation & benchmarks
+serving/       → FastAPI backend & frontend
+report/        → research report & references
 ```
 
-## 🛠️ Tools Implemented
-| Tool | Purpose |
-|---|---|
-| `SearchKB` | Semantic search over curated space KB |
-| `ComputeSuccessRate` | Launch vehicle reliability statistics |
-| `GetLaunchWindow` | Orbital mechanics transfer windows |
-| `GetPolicy` | Agency regulation lookup (NASA/ESA/ISRO) |
-| `CreateTicket` | Escalation for anomalies & KB gaps |
+---
 
-## 📊 Models Trained (5 of 5)
-| # | Component | Model | Data Size |
-|---|---|---|---|
-| A | Retriever | all-MiniLM-L6-v2 | 80+ pairs |
-| B | Reranker | cross-encoder/ms-marco | 60+ pairs |
-| C | Generator | Mistral-7B (QLoRA) | 45+ triples |
-| D | DPO Alignment | Mistral-7B + DPO | 150 pairs |
-| E | Tool Policy | BERT-base | 600 samples |
+# Technologies Used
 
-## 📈 Novel Metric: Mission-Criticality Accuracy (MCA)
-MCA(p, g) = 1.0 if |p − g| ≤ 0.05, else 0.0
+* Python
+* FastAPI
+* HuggingFace Transformers
+* Sentence Transformers
+* ChromaDB
+* PyTorch
+* QLoRA
+* DPO
+* BERT
+* Vector Databases
+* Retrieval-Augmented Generation (RAG)
 
-Ensures predicted success rates are within ±5% of verified ground truth.
+---
+
+# Research Areas Explored
+
+* Retrieval-Augmented Generation
+* Tool-Augmented AI Systems
+* LLM Alignment
+* Preference Optimization
+* Semantic Retrieval
+* Hallucination Prevention
+* Grounded AI Systems
+* Vector Search Systems
+
+---
+
+# Author
+
+Rudra Pandit
+
+---
+
+# Links
+
+## Live Demo
+
+https://space-mission-intelligence-copilot.onrender.com/
+
