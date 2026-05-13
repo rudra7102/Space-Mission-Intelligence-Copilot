@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: space-mission-copilot
+    env: python
+    buildCommand: pip install -r requirements.txt && python -m data.enrich_kb
+    startCommand: python -m uvicorn serving.serve:app --host 0.0.0.0 --port $PORT
