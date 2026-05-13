@@ -1,0 +1,3 @@
+Name	Country of Operator/Owner	Operator/Owner	Users
+MockSat-1	USA	NASA	Civil
+MockSat-2	ESA	ESA	Government

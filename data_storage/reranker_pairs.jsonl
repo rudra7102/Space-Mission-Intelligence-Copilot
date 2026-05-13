@@ -1,0 +1,60 @@
+{"query": "NASA crew safety policy", "passage": "NASA-STD-8719.14B requires LEO spacecraft to deorbit within 25 years of end-of-life.", "label": 0}
+{"query": "Tell me about New Horizons", "passage": "Space telescope launched in 1990 with a 2.4m primary mirror. Five servicing missions corrected its initial mirror flaw.", "label": 0}
+{"query": "Tell me about Mars Perseverance Rover", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Cassini-Huygens", "passage": "Satellite internet constellation with over 5,000 satellites in LEO. Provides global broadband coverage.", "label": 0}
+{"query": "Tell me about International Space Station", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Chandrayaan-3", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Hubble Space Telescope", "passage": "Space telescope launched in 1990 with a 2.4m primary mirror. Five servicing missions corrected its initial mirror flaw.", "label": 1}
+{"query": "Tell me about Gaia", "passage": "Space observatory mapping 1.7 billion stars in the Milky Way with unprecedented precision in astrometry.", "label": 1}
+{"query": "Tell me about International Space Station", "passage": "Modular space station in LEO at 408 km altitude. Continuously inhabited since November 2000. Mass: 420,000 kg.", "label": 1}
+{"query": "Tell me about James Webb Space Telescope", "passage": "First mission to orbit and land on a comet (67P/Churyumov-Gerasimenko). Philae lander touched down in 2014.", "label": 0}
+{"query": "Tell me about Hubble Space Telescope", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about James Webb Space Telescope", "passage": "Largest space telescope ever built. 6.5m segmented mirror. Operates at L2 Lagrange point observing in infrared.", "label": 1}
+{"query": "NASA orbital debris policy", "passage": "NASA-STD-8719.14B requires LEO spacecraft to deorbit within 25 years of end-of-life.", "label": 1}
+{"query": "Tell me about Gaia", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "NASA crew safety policy", "passage": "NPR 8715.3 mandates probability of loss of crew below 1 in 270 for crewed missions.", "label": 1}
+{"query": "Tell me about James Webb Space Telescope", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Starlink", "passage": "Satellite internet constellation with over 5,000 satellites in LEO. Provides global broadband coverage.", "label": 1}
+{"query": "Tell me about New Horizons", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Mars Perseverance Rover", "passage": "Orbited Saturn from 2004 to 2017. The Huygens probe landed on Titan. Discovered geysers on Enceladus.", "label": 0}
+{"query": "Tell me about Rosetta", "passage": "First mission to orbit and land on a comet (67P/Churyumov-Gerasimenko). Philae lander touched down in 2014.", "label": 1}
+{"query": "Tell me about Starlink", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Chandrayaan-3", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Voyager 1", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Starlink", "passage": "First crewed lunar landing mission. Neil Armstrong and Buzz Aldrin walked on the Moon on July 20, 1969.", "label": 0}
+{"query": "ESA space debris policy", "passage": "ESA ESSB-ST-U-007 requires passivation of all stored energy sources at end-of-life.", "label": 1}
+{"query": "Tell me about Mars Perseverance Rover", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about International Space Station", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about James Webb Space Telescope", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Gaia", "passage": "Launched in 1977, Voyager 1 is the farthest human-made object from Earth, currently in interstellar space.", "label": 0}
+{"query": "Tell me about Apollo 11", "passage": "Landed in Jezero Crater on Mars in February 2021. Equipped with MOXIE oxygen generator and Ingenuity helicopter.", "label": 0}
+{"query": "Tell me about Apollo 11", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "ISRO debris mitigation policy", "passage": "NPD 8610.7F requires flight readiness review and vehicle health certification between reuse flights.", "label": 0}
+{"query": "ESA crew safety policy", "passage": "NPD 8610.7F requires flight readiness review and vehicle health certification between reuse flights.", "label": 0}
+{"query": "Tell me about Cassini-Huygens", "passage": "Orbited Saturn from 2004 to 2017. The Huygens probe landed on Titan. Discovered geysers on Enceladus.", "label": 1}
+{"query": "Tell me about Hubble Space Telescope", "passage": "India's third lunar mission. Successfully soft-landed near the south pole of the Moon on August 23, 2023.", "label": 0}
+{"query": "Tell me about Cassini-Huygens", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "ESA crew safety policy", "passage": "ESA REG/003 classifies safety-critical software under SIL-4 integrity level.", "label": 1}
+{"query": "Tell me about Rosetta", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Mars Perseverance Rover", "passage": "Landed in Jezero Crater on Mars in February 2021. Equipped with MOXIE oxygen generator and Ingenuity helicopter.", "label": 1}
+{"query": "Tell me about Apollo 11", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "NASA launch vehicle reuse policy", "passage": "NPD 8610.7F requires flight readiness review and vehicle health certification between reuse flights.", "label": 1}
+{"query": "Tell me about Voyager 1", "passage": "Launched in 1977, Voyager 1 is the farthest human-made object from Earth, currently in interstellar space.", "label": 1}
+{"query": "Tell me about International Space Station", "passage": "First spacecraft to fly by Pluto in July 2015. Discovered Pluto's heart-shaped nitrogen ice plain (Sputnik Planitia).", "label": 0}
+{"query": "Tell me about Cassini-Huygens", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Starlink", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "ISRO debris mitigation policy", "passage": "ISRO SDMP-01 follows IADC guidelines with 25-year LEO post-mission disposal requirement.", "label": 1}
+{"query": "Tell me about Chandrayaan-3", "passage": "Modular space station in LEO at 408 km altitude. Continuously inhabited since November 2000. Mass: 420,000 kg.", "label": 0}
+{"query": "ESA space debris policy", "passage": "ESA REG/003 classifies safety-critical software under SIL-4 integrity level.", "label": 0}
+{"query": "Tell me about Apollo 11", "passage": "First crewed lunar landing mission. Neil Armstrong and Buzz Aldrin walked on the Moon on July 20, 1969.", "label": 1}
+{"query": "NASA orbital debris policy", "passage": "ESA ESSB-ST-U-007 requires passivation of all stored energy sources at end-of-life.", "label": 0}
+{"query": "Tell me about Voyager 1", "passage": "Largest space telescope ever built. 6.5m segmented mirror. Operates at L2 Lagrange point observing in infrared.", "label": 0}
+{"query": "Tell me about Rosetta", "passage": "Space observatory mapping 1.7 billion stars in the Milky Way with unprecedented precision in astrometry.", "label": 0}
+{"query": "Tell me about New Horizons", "passage": "The Amazon rainforest covers 5.5 million square kilometers in South America.", "label": 0}
+{"query": "Tell me about Chandrayaan-3", "passage": "India's third lunar mission. Successfully soft-landed near the south pole of the Moon on August 23, 2023.", "label": 1}
+{"query": "Tell me about New Horizons", "passage": "First spacecraft to fly by Pluto in July 2015. Discovered Pluto's heart-shaped nitrogen ice plain (Sputnik Planitia).", "label": 1}
+{"query": "Tell me about Rosetta", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Voyager 1", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Hubble Space Telescope", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "Tell me about Gaia", "passage": "Python is a popular programming language for data science and machine learning.", "label": 0}
+{"query": "NASA launch vehicle reuse policy", "passage": "ESA REG/003 classifies safety-critical software under SIL-4 integrity level.", "label": 0}

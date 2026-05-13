@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "agent": "Baseline (Raw RAG)",
+    "citation_f1": 1.0,
+    "keyword_grounding": 0.26083333333333336,
+    "answer_in_kb_rate": 0.5992961033914189,
+    "tool_selection_accuracy": 0.25,
+    "tool_call_success_rate": 1.0,
+    "escalation_precision": 0.0,
+    "escalation_recall": 0.0,
+    "mca": 0.0,
+    "avg_latency_ms": 298.24657440185547,
+    "p95_latency_ms": 693.615198135376
+  },
+  "copilot": {
+    "agent": "Full Copilot",
+    "citation_f1": 0.15,
+    "keyword_grounding": 0.8400000000000001,
+    "answer_in_kb_rate": 0.5177088841685115,
+    "tool_selection_accuracy": 0.9,
+    "tool_call_success_rate": 1.0,
+    "escalation_precision": 0.4,
+    "escalation_recall": 0.6666666666666666,
+    "mca": 1.0,
+    "avg_latency_ms": 75.56074857711792,
+    "p95_latency_ms": 273.33760261535645
+  },
+  "test_set_size": 20
+}

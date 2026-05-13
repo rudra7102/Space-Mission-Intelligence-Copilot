@@ -1,0 +1,398 @@
+{"query": "What are the upcoming Mars transfer windows?", "label": "GetLaunchWindow"}
+{"query": "What agency operates New Horizons?", "label": "SearchKB"}
+{"query": "We detected a critical memory parity error in the gyroscope during deorbit burn.", "label": "CreateTicket"}
+{"query": "What is the chance of failure for Ariane 5?", "label": "ComputeSuccessRate"}
+{"query": "History of Cassini-Huygens", "label": "SearchKB"}
+{"query": "Overview of the Apollo 11 project", "label": "SearchKB"}
+{"query": "When was Starlink launched?", "label": "SearchKB"}
+{"query": "What is the success rate of Starship?", "label": "ComputeSuccessRate"}
+{"query": "What instruments does Voyager 1 carry?", "label": "SearchKB"}
+{"query": "What is the chance of failure for Falcon Heavy?", "label": "ComputeSuccessRate"}
+{"query": "What agency operates Chandrayaan-3?", "label": "SearchKB"}
+{"query": "Describe the James Webb Space Telescope mission", "label": "SearchKB"}
+{"query": "Show me Falcon 9 mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "My satellite's solar array deployment is showing intermittent signal loss. Need immediate support.", "label": "CreateTicket"}
+{"query": "What is the success rate of LVM3?", "label": "ComputeSuccessRate"}
+{"query": "Who built Hubble Space Telescope?", "label": "SearchKB"}
+{"query": "What is the success rate of Vulcan Centaur?", "label": "ComputeSuccessRate"}
+{"query": "What are the NASA rules about launch vehicle reuse?", "label": "GetPolicy"}
+{"query": "Give me details about Cassini-Huygens", "label": "SearchKB"}
+{"query": "What can you do?", "label": "NoTool"}
+{"query": "Explain the significance of Chandrayaan-3", "label": "SearchKB"}
+{"query": "When can we launch to Moon?", "label": "GetLaunchWindow"}
+{"query": "My satellite's battery management system is showing memory parity error. Need immediate support.", "label": "CreateTicket"}
+{"query": "History of International Space Station", "label": "SearchKB"}
+{"query": "Who built International Space Station?", "label": "SearchKB"}
+{"query": "What is the probability of success for a LVM3 launch?", "label": "ComputeSuccessRate"}
+{"query": "Give me details about Voyager 1", "label": "SearchKB"}
+{"query": "Who built Cassini-Huygens?", "label": "SearchKB"}
+{"query": "Explain the significance of New Horizons", "label": "SearchKB"}
+{"query": "When can we launch to Lunar orbit?", "label": "GetLaunchWindow"}
+{"query": "What are the key achievements of Cassini-Huygens?", "label": "SearchKB"}
+{"query": "Best time to launch a 732kg payload to Venus?", "label": "GetLaunchWindow"}
+{"query": "We detected a critical mechanical vibration anomaly in the thermal management unit during orbital insertion.", "label": "CreateTicket"}
+{"query": "Reporting an anomaly: solar array deployment experienced temperature exceedance at T+3522 seconds.", "label": "CreateTicket"}
+{"query": "Overview of the Starlink project", "label": "SearchKB"}
+{"query": "What guidelines does ISRO have regarding debris mitigation?", "label": "GetPolicy"}
+{"query": "We detected a critical unexpected torque readings in the solar array deployment during momentum dumping.", "label": "CreateTicket"}
+{"query": "Are there ESA regulations for space debris?", "label": "GetPolicy"}
+{"query": "What are the upcoming ISS transfer windows?", "label": "GetLaunchWindow"}
+{"query": "Explain the significance of Apollo 11", "label": "SearchKB"}
+{"query": "What instruments does Apollo 11 carry?", "label": "SearchKB"}
+{"query": "What is the probability of success for a Starship launch?", "label": "ComputeSuccessRate"}
+{"query": "What is the chance of failure for Delta IV?", "label": "ComputeSuccessRate"}
+{"query": "The attitude control system on our spacecraft has unexpected torque readings. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Is there a NASA compliance rule for orbital debris?", "label": "GetPolicy"}
+{"query": "Best time to launch a 9412kg payload to ISS?", "label": "GetLaunchWindow"}
+{"query": "My satellite's communication subsystem is showing unexpected torque readings. Need immediate support.", "label": "CreateTicket"}
+{"query": "What agency operates Apollo 11?", "label": "SearchKB"}
+{"query": "What is the chance of failure for Starship?", "label": "ComputeSuccessRate"}
+{"query": "Explain the significance of Gaia", "label": "SearchKB"}
+{"query": "How reliable is the Vulcan Centaur rocket?", "label": "ComputeSuccessRate"}
+{"query": "Reporting an anomaly: gyroscope experienced mechanical vibration anomaly at T+3070 seconds.", "label": "CreateTicket"}
+{"query": "What is the next optimal launch window to GEO?", "label": "GetLaunchWindow"}
+{"query": "My satellite's gyroscope is showing software watchdog timeout. Need immediate support.", "label": "CreateTicket"}
+{"query": "What instruments does New Horizons carry?", "label": "SearchKB"}
+{"query": "Reporting an anomaly: gyroscope experienced temperature exceedance at T+173 seconds.", "label": "CreateTicket"}
+{"query": "What do we know about Voyager 1?", "label": "SearchKB"}
+{"query": "When should we launch a mission to Venus?", "label": "GetLaunchWindow"}
+{"query": "Explain the significance of Mars Perseverance Rover", "label": "SearchKB"}
+{"query": "Is there a ESA compliance rule for crew safety?", "label": "GetPolicy"}
+{"query": "What instruments does Starlink carry?", "label": "SearchKB"}
+{"query": "Give me details about International Space Station", "label": "SearchKB"}
+{"query": "What is the historical failure probability of Starship?", "label": "ComputeSuccessRate"}
+{"query": "What is the next optimal launch window to LEO?", "label": "GetLaunchWindow"}
+{"query": "When was James Webb Space Telescope launched?", "label": "SearchKB"}
+{"query": "When was Cassini-Huygens launched?", "label": "SearchKB"}
+{"query": "Calculate the reliability of PSLV launches", "label": "ComputeSuccessRate"}
+{"query": "What do we know about Hubble Space Telescope?", "label": "SearchKB"}
+{"query": "Calculate the next launch window for LEO", "label": "GetLaunchWindow"}
+{"query": "What is the historical failure probability of Ariane 5?", "label": "ComputeSuccessRate"}
+{"query": "What are the upcoming GEO transfer windows?", "label": "GetLaunchWindow"}
+{"query": "What guidelines does NASA have regarding launch vehicle reuse?", "label": "GetPolicy"}
+{"query": "Describe the Rosetta mission", "label": "SearchKB"}
+{"query": "The gyroscope on our spacecraft has mechanical vibration anomaly. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What is the chance of failure for PSLV?", "label": "ComputeSuccessRate"}
+{"query": "What agency operates International Space Station?", "label": "SearchKB"}
+{"query": "When was Chandrayaan-3 launched?", "label": "SearchKB"}
+{"query": "My satellite's solar array deployment is showing software watchdog timeout. Need immediate support.", "label": "CreateTicket"}
+{"query": "Describe the Chandrayaan-3 mission", "label": "SearchKB"}
+{"query": "Describe the Starlink mission", "label": "SearchKB"}
+{"query": "What are the key achievements of Voyager 1?", "label": "SearchKB"}
+{"query": "What are the key achievements of Rosetta?", "label": "SearchKB"}
+{"query": "When can we launch to Venus?", "label": "GetLaunchWindow"}
+{"query": "When should we launch a mission to Moon?", "label": "GetLaunchWindow"}
+{"query": "When was Hubble Space Telescope launched?", "label": "SearchKB"}
+{"query": "When should we launch a mission to Jupiter?", "label": "GetLaunchWindow"}
+{"query": "Reporting an anomaly: gyroscope experienced intermittent signal loss at T+475 seconds.", "label": "CreateTicket"}
+{"query": "When can we launch to Mars?", "label": "GetLaunchWindow"}
+{"query": "History of Chandrayaan-3", "label": "SearchKB"}
+{"query": "History of Gaia", "label": "SearchKB"}
+{"query": "When was International Space Station launched?", "label": "SearchKB"}
+{"query": "My satellite's propulsion module is showing mechanical vibration anomaly. Need immediate support.", "label": "CreateTicket"}
+{"query": "Tell me about Cassini-Huygens", "label": "SearchKB"}
+{"query": "When can we launch to GEO?", "label": "GetLaunchWindow"}
+{"query": "Emergency: power distribution unit failure detected. temperature exceedance. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Show me PSLV mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "Calculate the next launch window for Lunar orbit", "label": "GetLaunchWindow"}
+{"query": "Goodbye", "label": "NoTool"}
+{"query": "What instruments does Gaia carry?", "label": "SearchKB"}
+{"query": "The communication subsystem on our spacecraft has voltage drop below threshold. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What is the success rate of Delta IV?", "label": "ComputeSuccessRate"}
+{"query": "What are the ESA rules about space debris?", "label": "GetPolicy"}
+{"query": "History of Hubble Space Telescope", "label": "SearchKB"}
+{"query": "Overview of the International Space Station project", "label": "SearchKB"}
+{"query": "Reporting an anomaly: communication subsystem experienced voltage drop below threshold at T+2552 seconds.", "label": "CreateTicket"}
+{"query": "What is NASA's policy on crew safety?", "label": "GetPolicy"}
+{"query": "The star tracker on our spacecraft has unexpected torque readings. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What are the key achievements of Hubble Space Telescope?", "label": "SearchKB"}
+{"query": "Show me Soyuz mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "How reliable is the Soyuz rocket?", "label": "ComputeSuccessRate"}
+{"query": "What agency operates Cassini-Huygens?", "label": "SearchKB"}
+{"query": "Give me details about Mars Perseverance Rover", "label": "SearchKB"}
+{"query": "What agency operates Voyager 1?", "label": "SearchKB"}
+{"query": "What agency operates Mars Perseverance Rover?", "label": "SearchKB"}
+{"query": "Tell me about Chandrayaan-3", "label": "SearchKB"}
+{"query": "What guidelines does NASA have regarding crew safety?", "label": "GetPolicy"}
+{"query": "Best time to launch a 1722kg payload to Moon?", "label": "GetLaunchWindow"}
+{"query": "What is Gaia?", "label": "SearchKB"}
+{"query": "What are the key achievements of Gaia?", "label": "SearchKB"}
+{"query": "How reliable is the Delta IV rocket?", "label": "ComputeSuccessRate"}
+{"query": "Emergency: battery management system failure detected. unexpected torque readings. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Give me details about Apollo 11", "label": "SearchKB"}
+{"query": "Overview of the Hubble Space Telescope project", "label": "SearchKB"}
+{"query": "History of James Webb Space Telescope", "label": "SearchKB"}
+{"query": "Emergency: reaction wheel assembly failure detected. sensor drift beyond limits. Requesting escalation.", "label": "CreateTicket"}
+{"query": "What do we know about Starlink?", "label": "SearchKB"}
+{"query": "What is Cassini-Huygens?", "label": "SearchKB"}
+{"query": "Show me Vulcan Centaur mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "Explain the significance of Cassini-Huygens", "label": "SearchKB"}
+{"query": "What guidelines does NASA have regarding orbital debris?", "label": "GetPolicy"}
+{"query": "What is Chandrayaan-3?", "label": "SearchKB"}
+{"query": "Overview of the Voyager 1 project", "label": "SearchKB"}
+{"query": "What is the chance of failure for Falcon 9?", "label": "ComputeSuccessRate"}
+{"query": "What are the upcoming Jupiter transfer windows?", "label": "GetLaunchWindow"}
+{"query": "Who built Apollo 11?", "label": "SearchKB"}
+{"query": "What is the probability of success for a Falcon 9 launch?", "label": "ComputeSuccessRate"}
+{"query": "The communication subsystem on our spacecraft has memory parity error. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What is the success rate of Soyuz?", "label": "ComputeSuccessRate"}
+{"query": "What are the key achievements of James Webb Space Telescope?", "label": "SearchKB"}
+{"query": "What are the upcoming Venus transfer windows?", "label": "GetLaunchWindow"}
+{"query": "Reporting an anomaly: communication subsystem experienced sensor drift beyond limits at T+22 seconds.", "label": "CreateTicket"}
+{"query": "Good morning", "label": "NoTool"}
+{"query": "We detected a critical unexpected torque readings in the battery management system during eclipse transition.", "label": "CreateTicket"}
+{"query": "When should we launch a mission to GEO?", "label": "GetLaunchWindow"}
+{"query": "What is Hubble Space Telescope?", "label": "SearchKB"}
+{"query": "Emergency: battery management system failure detected. temperature exceedance. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Tell me about Mars Perseverance Rover", "label": "SearchKB"}
+{"query": "How reliable is the Starship rocket?", "label": "ComputeSuccessRate"}
+{"query": "Is there a ISRO compliance rule for debris mitigation?", "label": "GetPolicy"}
+{"query": "Explain the significance of James Webb Space Telescope", "label": "SearchKB"}
+{"query": "When was Apollo 11 launched?", "label": "SearchKB"}
+{"query": "Are there ISRO regulations for debris mitigation?", "label": "GetPolicy"}
+{"query": "Show me Starship mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "Hello", "label": "NoTool"}
+{"query": "Calculate the next launch window for Jupiter", "label": "GetLaunchWindow"}
+{"query": "What do we know about International Space Station?", "label": "SearchKB"}
+{"query": "What agency operates Hubble Space Telescope?", "label": "SearchKB"}
+{"query": "What do we know about New Horizons?", "label": "SearchKB"}
+{"query": "Is there a NASA compliance rule for launch vehicle reuse?", "label": "GetPolicy"}
+{"query": "Explain the significance of International Space Station", "label": "SearchKB"}
+{"query": "My satellite's communication subsystem is showing unexpected torque readings. Need immediate support.", "label": "CreateTicket"}
+{"query": "What is the historical failure probability of LVM3?", "label": "ComputeSuccessRate"}
+{"query": "Emergency: gyroscope failure detected. memory parity error. Requesting escalation.", "label": "CreateTicket"}
+{"query": "We detected a critical telemetry data corruption in the gyroscope during momentum dumping.", "label": "CreateTicket"}
+{"query": "What is the probability of success for a PSLV launch?", "label": "ComputeSuccessRate"}
+{"query": "When should we launch a mission to LEO?", "label": "GetLaunchWindow"}
+{"query": "We detected a critical software watchdog timeout in the power distribution unit during orbital insertion.", "label": "CreateTicket"}
+{"query": "Reporting an anomaly: power distribution unit experienced sensor drift beyond limits at T+858 seconds.", "label": "CreateTicket"}
+{"query": "What do we know about Rosetta?", "label": "SearchKB"}
+{"query": "Give me details about Rosetta", "label": "SearchKB"}
+{"query": "Overview of the Chandrayaan-3 project", "label": "SearchKB"}
+{"query": "What is the historical failure probability of Delta IV?", "label": "ComputeSuccessRate"}
+{"query": "What do we know about Gaia?", "label": "SearchKB"}
+{"query": "Emergency: communication subsystem failure detected. temperature exceedance. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Hey, how are you?", "label": "NoTool"}
+{"query": "Explain the significance of Rosetta", "label": "SearchKB"}
+{"query": "When should we launch a mission to Mars?", "label": "GetLaunchWindow"}
+{"query": "Calculate the reliability of Soyuz launches", "label": "ComputeSuccessRate"}
+{"query": "When can we launch to LEO?", "label": "GetLaunchWindow"}
+{"query": "Show me Delta IV mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "When can we launch to Jupiter?", "label": "GetLaunchWindow"}
+{"query": "Calculate the reliability of Starship launches", "label": "ComputeSuccessRate"}
+{"query": "What is the chance of failure for Vulcan Centaur?", "label": "ComputeSuccessRate"}
+{"query": "Who built Voyager 1?", "label": "SearchKB"}
+{"query": "We detected a critical mechanical vibration anomaly in the power distribution unit during eclipse transition.", "label": "CreateTicket"}
+{"query": "What guidelines does ESA have regarding crew safety?", "label": "GetPolicy"}
+{"query": "Thanks!", "label": "NoTool"}
+{"query": "Calculate the next launch window for GEO", "label": "GetLaunchWindow"}
+{"query": "What instruments does Mars Perseverance Rover carry?", "label": "SearchKB"}
+{"query": "The battery management system on our spacecraft has telemetry data corruption. This is mission-critical.", "label": "CreateTicket"}
+{"query": "The propulsion module on our spacecraft has memory parity error. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What is the probability of success for a Falcon Heavy launch?", "label": "ComputeSuccessRate"}
+{"query": "Are there NASA regulations for crew safety?", "label": "GetPolicy"}
+{"query": "What instruments does Cassini-Huygens carry?", "label": "SearchKB"}
+{"query": "Overview of the Cassini-Huygens project", "label": "SearchKB"}
+{"query": "What is the success rate of PSLV?", "label": "ComputeSuccessRate"}
+{"query": "What instruments does Hubble Space Telescope carry?", "label": "SearchKB"}
+{"query": "What is ESA's policy on crew safety?", "label": "GetPolicy"}
+{"query": "Overview of the Mars Perseverance Rover project", "label": "SearchKB"}
+{"query": "Emergency: star tracker failure detected. memory parity error. Requesting escalation.", "label": "CreateTicket"}
+{"query": "What is the success rate of Falcon Heavy?", "label": "ComputeSuccessRate"}
+{"query": "What is the probability of success for a Ariane 5 launch?", "label": "ComputeSuccessRate"}
+{"query": "My satellite's gyroscope is showing intermittent signal loss. Need immediate support.", "label": "CreateTicket"}
+{"query": "Reporting an anomaly: power distribution unit experienced unexpected torque readings at T+1447 seconds.", "label": "CreateTicket"}
+{"query": "What is the next optimal launch window to Jupiter?", "label": "GetLaunchWindow"}
+{"query": "My satellite's power distribution unit is showing sensor drift beyond limits. Need immediate support.", "label": "CreateTicket"}
+{"query": "Explain the significance of Voyager 1", "label": "SearchKB"}
+{"query": "Calculate the reliability of Delta IV launches", "label": "ComputeSuccessRate"}
+{"query": "Show me the ESA standard for space debris", "label": "GetPolicy"}
+{"query": "Give me details about Chandrayaan-3", "label": "SearchKB"}
+{"query": "The thermal management unit on our spacecraft has telemetry data corruption. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What guidelines does ESA have regarding space debris?", "label": "GetPolicy"}
+{"query": "When was New Horizons launched?", "label": "SearchKB"}
+{"query": "What is New Horizons?", "label": "SearchKB"}
+{"query": "Calculate the reliability of LVM3 launches", "label": "ComputeSuccessRate"}
+{"query": "We detected a critical software watchdog timeout in the solar array deployment during docking approach.", "label": "CreateTicket"}
+{"query": "The reaction wheel assembly on our spacecraft has memory parity error. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Calculate the next launch window for Venus", "label": "GetLaunchWindow"}
+{"query": "My satellite's reaction wheel assembly is showing telemetry data corruption. Need immediate support.", "label": "CreateTicket"}
+{"query": "Give me details about Hubble Space Telescope", "label": "SearchKB"}
+{"query": "What are the key achievements of Starlink?", "label": "SearchKB"}
+{"query": "The power distribution unit on our spacecraft has sensor drift beyond limits. This is mission-critical.", "label": "CreateTicket"}
+{"query": "When was Mars Perseverance Rover launched?", "label": "SearchKB"}
+{"query": "Calculate the reliability of Falcon Heavy launches", "label": "ComputeSuccessRate"}
+{"query": "Tell me about James Webb Space Telescope", "label": "SearchKB"}
+{"query": "How reliable is the PSLV rocket?", "label": "ComputeSuccessRate"}
+{"query": "Calculate the next launch window for Mars", "label": "GetLaunchWindow"}
+{"query": "What is the next optimal launch window to Venus?", "label": "GetLaunchWindow"}
+{"query": "Is there a ESA compliance rule for space debris?", "label": "GetPolicy"}
+{"query": "Best time to launch a 9134kg payload to Jupiter?", "label": "GetLaunchWindow"}
+{"query": "What is Voyager 1?", "label": "SearchKB"}
+{"query": "When should we launch a mission to Lunar orbit?", "label": "GetLaunchWindow"}
+{"query": "What is the success rate of Atlas V?", "label": "ComputeSuccessRate"}
+{"query": "What do we know about Apollo 11?", "label": "SearchKB"}
+{"query": "When can we launch to ISS?", "label": "GetLaunchWindow"}
+{"query": "Show me the NASA standard for crew safety", "label": "GetPolicy"}
+{"query": "What are the key achievements of International Space Station?", "label": "SearchKB"}
+{"query": "Show me Ariane 5 mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "My satellite's propulsion module is showing telemetry data corruption. Need immediate support.", "label": "CreateTicket"}
+{"query": "What do we know about Chandrayaan-3?", "label": "SearchKB"}
+{"query": "What is the chance of failure for LVM3?", "label": "ComputeSuccessRate"}
+{"query": "What is the chance of failure for Atlas V?", "label": "ComputeSuccessRate"}
+{"query": "What are the ISRO rules about debris mitigation?", "label": "GetPolicy"}
+{"query": "What are the key achievements of Apollo 11?", "label": "SearchKB"}
+{"query": "How reliable is the Ariane 5 rocket?", "label": "ComputeSuccessRate"}
+{"query": "What are the upcoming Lunar orbit transfer windows?", "label": "GetLaunchWindow"}
+{"query": "What are the ESA rules about crew safety?", "label": "GetPolicy"}
+{"query": "What is the success rate of Falcon 9?", "label": "ComputeSuccessRate"}
+{"query": "Overview of the James Webb Space Telescope project", "label": "SearchKB"}
+{"query": "Overview of the New Horizons project", "label": "SearchKB"}
+{"query": "What is Starlink?", "label": "SearchKB"}
+{"query": "Emergency: propulsion module failure detected. unexpected torque readings. Requesting escalation.", "label": "CreateTicket"}
+{"query": "What instruments does Rosetta carry?", "label": "SearchKB"}
+{"query": "What do we know about Cassini-Huygens?", "label": "SearchKB"}
+{"query": "How reliable is the Atlas V rocket?", "label": "ComputeSuccessRate"}
+{"query": "Who built New Horizons?", "label": "SearchKB"}
+{"query": "What agency operates James Webb Space Telescope?", "label": "SearchKB"}
+{"query": "Reporting an anomaly: reaction wheel assembly experienced sensor drift beyond limits at T+1700 seconds.", "label": "CreateTicket"}
+{"query": "We detected a critical intermittent signal loss in the propulsion module during docking approach.", "label": "CreateTicket"}
+{"query": "What is the probability of success for a Vulcan Centaur launch?", "label": "ComputeSuccessRate"}
+{"query": "Explain the significance of Hubble Space Telescope", "label": "SearchKB"}
+{"query": "What is Mars Perseverance Rover?", "label": "SearchKB"}
+{"query": "Reporting an anomaly: reaction wheel assembly experienced sensor drift beyond limits at T+1354 seconds.", "label": "CreateTicket"}
+{"query": "When should we launch a mission to ISS?", "label": "GetLaunchWindow"}
+{"query": "Emergency: power distribution unit failure detected. intermittent signal loss. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Describe the Hubble Space Telescope mission", "label": "SearchKB"}
+{"query": "Best time to launch a 1402kg payload to LEO?", "label": "GetLaunchWindow"}
+{"query": "Give me details about Starlink", "label": "SearchKB"}
+{"query": "Describe the Mars Perseverance Rover mission", "label": "SearchKB"}
+{"query": "What is the historical failure probability of Falcon Heavy?", "label": "ComputeSuccessRate"}
+{"query": "My satellite's gyroscope is showing mechanical vibration anomaly. Need immediate support.", "label": "CreateTicket"}
+{"query": "We detected a critical memory parity error in the propulsion module during docking approach.", "label": "CreateTicket"}
+{"query": "Calculate the reliability of Ariane 5 launches", "label": "ComputeSuccessRate"}
+{"query": "Explain the significance of Starlink", "label": "SearchKB"}
+{"query": "Emergency: reaction wheel assembly failure detected. voltage drop below threshold. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Who built Rosetta?", "label": "SearchKB"}
+{"query": "We detected a critical voltage drop below threshold in the gyroscope during eclipse transition.", "label": "CreateTicket"}
+{"query": "What is the historical failure probability of Atlas V?", "label": "ComputeSuccessRate"}
+{"query": "Show me Atlas V mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "What do we know about James Webb Space Telescope?", "label": "SearchKB"}
+{"query": "History of Apollo 11", "label": "SearchKB"}
+{"query": "Describe the Gaia mission", "label": "SearchKB"}
+{"query": "What are the key achievements of New Horizons?", "label": "SearchKB"}
+{"query": "Describe the New Horizons mission", "label": "SearchKB"}
+{"query": "My satellite's battery management system is showing intermittent signal loss. Need immediate support.", "label": "CreateTicket"}
+{"query": "What is the next optimal launch window to ISS?", "label": "GetLaunchWindow"}
+{"query": "Reporting an anomaly: star tracker experienced intermittent signal loss at T+3111 seconds.", "label": "CreateTicket"}
+{"query": "Emergency: gyroscope failure detected. software watchdog timeout. Requesting escalation.", "label": "CreateTicket"}
+{"query": "What agency operates Gaia?", "label": "SearchKB"}
+{"query": "What is the chance of failure for Soyuz?", "label": "ComputeSuccessRate"}
+{"query": "Give me details about Gaia", "label": "SearchKB"}
+{"query": "Describe the Apollo 11 mission", "label": "SearchKB"}
+{"query": "What is the probability of success for a Delta IV launch?", "label": "ComputeSuccessRate"}
+{"query": "My satellite's battery management system is showing intermittent signal loss. Need immediate support.", "label": "CreateTicket"}
+{"query": "Calculate the reliability of Falcon 9 launches", "label": "ComputeSuccessRate"}
+{"query": "Are there ESA regulations for crew safety?", "label": "GetPolicy"}
+{"query": "Show me the NASA standard for orbital debris", "label": "GetPolicy"}
+{"query": "Tell me about Starlink", "label": "SearchKB"}
+{"query": "Give me details about New Horizons", "label": "SearchKB"}
+{"query": "What are the NASA rules about crew safety?", "label": "GetPolicy"}
+{"query": "Best time to launch a 7158kg payload to Mars?", "label": "GetLaunchWindow"}
+{"query": "What is NASA's policy on orbital debris?", "label": "GetPolicy"}
+{"query": "When was Gaia launched?", "label": "SearchKB"}
+{"query": "We detected a critical temperature exceedance in the propulsion module during deorbit burn.", "label": "CreateTicket"}
+{"query": "Hi there!", "label": "NoTool"}
+{"query": "History of Mars Perseverance Rover", "label": "SearchKB"}
+{"query": "The communication subsystem on our spacecraft has software watchdog timeout. This is mission-critical.", "label": "CreateTicket"}
+{"query": "History of Starlink", "label": "SearchKB"}
+{"query": "What is ESA's policy on space debris?", "label": "GetPolicy"}
+{"query": "What is the next optimal launch window to Mars?", "label": "GetLaunchWindow"}
+{"query": "Show me Falcon Heavy mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "Are there NASA regulations for launch vehicle reuse?", "label": "GetPolicy"}
+{"query": "What is the next optimal launch window to Lunar orbit?", "label": "GetLaunchWindow"}
+{"query": "Best time to launch a 1618kg payload to Lunar orbit?", "label": "GetLaunchWindow"}
+{"query": "Who built Starlink?", "label": "SearchKB"}
+{"query": "The battery management system on our spacecraft has memory parity error. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Emergency: propulsion module failure detected. software watchdog timeout. Requesting escalation.", "label": "CreateTicket"}
+{"query": "What is the historical failure probability of Vulcan Centaur?", "label": "ComputeSuccessRate"}
+{"query": "Reporting an anomaly: communication subsystem experienced unexpected torque readings at T+1505 seconds.", "label": "CreateTicket"}
+{"query": "Tell me about Gaia", "label": "SearchKB"}
+{"query": "What are the upcoming LEO transfer windows?", "label": "GetLaunchWindow"}
+{"query": "The solar array deployment on our spacecraft has telemetry data corruption. This is mission-critical.", "label": "CreateTicket"}
+{"query": "What agency operates Starlink?", "label": "SearchKB"}
+{"query": "What is the next optimal launch window to Moon?", "label": "GetLaunchWindow"}
+{"query": "Calculate the next launch window for ISS", "label": "GetLaunchWindow"}
+{"query": "Describe the Voyager 1 mission", "label": "SearchKB"}
+{"query": "Overview of the Rosetta project", "label": "SearchKB"}
+{"query": "My satellite's communication subsystem is showing temperature exceedance. Need immediate support.", "label": "CreateTicket"}
+{"query": "Show me the ESA standard for crew safety", "label": "GetPolicy"}
+{"query": "Give me details about James Webb Space Telescope", "label": "SearchKB"}
+{"query": "What instruments does International Space Station carry?", "label": "SearchKB"}
+{"query": "What is NASA's policy on launch vehicle reuse?", "label": "GetPolicy"}
+{"query": "Hello SpaceCopilot", "label": "NoTool"}
+{"query": "What agency operates Rosetta?", "label": "SearchKB"}
+{"query": "What instruments does James Webb Space Telescope carry?", "label": "SearchKB"}
+{"query": "What do we know about Mars Perseverance Rover?", "label": "SearchKB"}
+{"query": "Tell me about Apollo 11", "label": "SearchKB"}
+{"query": "The reaction wheel assembly on our spacecraft has temperature exceedance. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Who built Chandrayaan-3?", "label": "SearchKB"}
+{"query": "What is the historical failure probability of Falcon 9?", "label": "ComputeSuccessRate"}
+{"query": "What is the historical failure probability of Soyuz?", "label": "ComputeSuccessRate"}
+{"query": "The power distribution unit on our spacecraft has unexpected torque readings. This is mission-critical.", "label": "CreateTicket"}
+{"query": "History of New Horizons", "label": "SearchKB"}
+{"query": "What is James Webb Space Telescope?", "label": "SearchKB"}
+{"query": "When was Voyager 1 launched?", "label": "SearchKB"}
+{"query": "Is there a NASA compliance rule for crew safety?", "label": "GetPolicy"}
+{"query": "Tell me about Rosetta", "label": "SearchKB"}
+{"query": "Reporting an anomaly: communication subsystem experienced temperature exceedance at T+1297 seconds.", "label": "CreateTicket"}
+{"query": "What is International Space Station?", "label": "SearchKB"}
+{"query": "My satellite's gyroscope is showing software watchdog timeout. Need immediate support.", "label": "CreateTicket"}
+{"query": "How reliable is the LVM3 rocket?", "label": "ComputeSuccessRate"}
+{"query": "My satellite's solar array deployment is showing intermittent signal loss. Need immediate support.", "label": "CreateTicket"}
+{"query": "My satellite's communication subsystem is showing telemetry data corruption. Need immediate support.", "label": "CreateTicket"}
+{"query": "Describe the Cassini-Huygens mission", "label": "SearchKB"}
+{"query": "What are the key achievements of Mars Perseverance Rover?", "label": "SearchKB"}
+{"query": "What are the upcoming Moon transfer windows?", "label": "GetLaunchWindow"}
+{"query": "Tell me about Voyager 1", "label": "SearchKB"}
+{"query": "How reliable is the Falcon 9 rocket?", "label": "ComputeSuccessRate"}
+{"query": "What is the success rate of Ariane 5?", "label": "ComputeSuccessRate"}
+{"query": "History of Rosetta", "label": "SearchKB"}
+{"query": "Emergency: gyroscope failure detected. voltage drop below threshold. Requesting escalation.", "label": "CreateTicket"}
+{"query": "The battery management system on our spacecraft has voltage drop below threshold. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Show me the ISRO standard for debris mitigation", "label": "GetPolicy"}
+{"query": "Tell me about Hubble Space Telescope", "label": "SearchKB"}
+{"query": "Show me LVM3 mission success statistics", "label": "ComputeSuccessRate"}
+{"query": "My satellite's gyroscope is showing software watchdog timeout. Need immediate support.", "label": "CreateTicket"}
+{"query": "Calculate the next launch window for Moon", "label": "GetLaunchWindow"}
+{"query": "What is ISRO's policy on debris mitigation?", "label": "GetPolicy"}
+{"query": "What are the NASA rules about orbital debris?", "label": "GetPolicy"}
+{"query": "Emergency: solar array deployment failure detected. sensor drift beyond limits. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Who built Gaia?", "label": "SearchKB"}
+{"query": "What is the historical failure probability of PSLV?", "label": "ComputeSuccessRate"}
+{"query": "Who built Mars Perseverance Rover?", "label": "SearchKB"}
+{"query": "Are there NASA regulations for orbital debris?", "label": "GetPolicy"}
+{"query": "History of Voyager 1", "label": "SearchKB"}
+{"query": "Calculate the reliability of Vulcan Centaur launches", "label": "ComputeSuccessRate"}
+{"query": "The propulsion module on our spacecraft has software watchdog timeout. This is mission-critical.", "label": "CreateTicket"}
+{"query": "When was Rosetta launched?", "label": "SearchKB"}
+{"query": "Tell me about International Space Station", "label": "SearchKB"}
+{"query": "Calculate the reliability of Atlas V launches", "label": "ComputeSuccessRate"}
+{"query": "What are the key achievements of Chandrayaan-3?", "label": "SearchKB"}
+{"query": "Describe the International Space Station mission", "label": "SearchKB"}
+{"query": "We detected a critical unexpected torque readings in the thermal management unit during commissioning.", "label": "CreateTicket"}
+{"query": "What is Apollo 11?", "label": "SearchKB"}
+{"query": "What instruments does Chandrayaan-3 carry?", "label": "SearchKB"}
+{"query": "We detected a critical unexpected torque readings in the gyroscope during momentum dumping.", "label": "CreateTicket"}
+{"query": "The attitude control system on our spacecraft has software watchdog timeout. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Emergency: thermal management unit failure detected. telemetry data corruption. Requesting escalation.", "label": "CreateTicket"}
+{"query": "Show me the NASA standard for launch vehicle reuse", "label": "GetPolicy"}
+{"query": "The thermal management unit on our spacecraft has sensor drift beyond limits. This is mission-critical.", "label": "CreateTicket"}
+{"query": "Tell me about New Horizons", "label": "SearchKB"}
+{"query": "Best time to launch a 7802kg payload to GEO?", "label": "GetLaunchWindow"}
+{"query": "Who built James Webb Space Telescope?", "label": "SearchKB"}
+{"query": "What is Rosetta?", "label": "SearchKB"}
+{"query": "What is the probability of success for a Atlas V launch?", "label": "ComputeSuccessRate"}
+{"query": "Overview of the Gaia project", "label": "SearchKB"}
+{"query": "How reliable is the Falcon Heavy rocket?", "label": "ComputeSuccessRate"}
+{"query": "What is the probability of success for a Soyuz launch?", "label": "ComputeSuccessRate"}

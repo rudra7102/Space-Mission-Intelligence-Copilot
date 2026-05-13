@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Copilot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/index.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Marked.js for markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="video-bg">
+        <!-- Optional space background map/image -->
+    </div>
+    <div class="app-container">
+        <header class="glass-header">
+            <div class="header-content">
+                <i class="fa-solid fa-satellite header-icon"></i>
+                <div class="title-wrap">
+                    <h1>SpaceCopilot</h1>
+                    <span class="badge">NASA / ESA Ready</span>
+                </div>
+            </div>
+            <div class="status-indicator">
+                <div class="pulse-dot"></div>
+                <span>Uplink Active</span>
+            </div>
+        </header>
+
+        <main class="chat-wrapper" id="chatWrapper">
+            <div class="message system">
+                <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                <div class="msg-bubble">
+                    <p>Houston, we have a connection. I am your Space Mission Intelligence Copilot. How can I assist you with your mission parameters, success rates, or orbit analytics?</p>
+                </div>
+            </div>
+            <!-- Messages added here dynamically -->
+        </main>
+
+        <footer class="input-area glass-footer">
+            <form id="chatForm">
+                <input type="text" id="userInput" placeholder="Query mission databases, parameters..." autocomplete="off">
+                <button type="submit" id="sendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </footer>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
