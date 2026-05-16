@@ -252,11 +252,168 @@ report/        → research report & references
 
 ---
 
+# ============================================================
+#  SpaceCopilot — 20 Test Questions (Evaluation Suite)
+#  Use these to demo and test all core system behaviors
+# ============================================================
+
+
+# ─────────────────────────────────────────────────────────────
+# GROUP 1 — SearchKB
+# Expected:
+# - Semantic retrieval from ChromaDB
+# - Grounded aerospace responses
+# - Passage cards with doc_id citations
+# ─────────────────────────────────────────────────────────────
+
+Q1:  Tell me about the James Webb Space Telescope
+Q2:  What is the International Space Station?
+Q3:  Describe the Hubble Space Telescope mission
+Q4:  Tell me about SpaceX Starlink constellation
+Q5:  What satellites does ESA operate?
+
+
+# ─────────────────────────────────────────────────────────────
+# GROUP 2 — ComputeSuccessRate
+# Expected:
+# - Reliability statistics
+# - Mission success/failure analysis
+# - Structured numerical outputs
+# ─────────────────────────────────────────────────────────────
+
+Q6:  What is the success rate of Falcon 9?
+Q7:  What is the success rate of Falcon Heavy?
+Q8:  Calculate the reliability of Soyuz launches
+Q9:  What is the historical failure probability of Ariane 5?
+
+
+# ─────────────────────────────────────────────────────────────
+# GROUP 3 — GetLaunchWindow
+# Expected:
+# - Launch window recommendations
+# - Delta-v estimates
+# - Orbital transfer analysis
+# ─────────────────────────────────────────────────────────────
+
+Q10: What is the next optimal launch window to Mars?
+Q11: When should we launch a mission to the Moon?
+Q12: Best time to launch to Jupiter?
+
+
+# ─────────────────────────────────────────────────────────────
+# GROUP 4 — GetPolicy
+# Expected:
+# - Agency policy retrieval
+# - Citation-grounded policy responses
+# - Last-updated metadata
+# ─────────────────────────────────────────────────────────────
+
+Q13: Is there a NASA policy regarding orbital debris for satellites in LEO?
+Q14: What are ESA guidelines for satellite end-of-life disposal?
+Q15: What is ISRO's policy on debris mitigation?
+
+
+# ─────────────────────────────────────────────────────────────
+# GROUP 5 — CreateTicket
+# Expected:
+# - Human escalation workflow
+# - Ticket creation
+# - Mission-critical alert handling
+# ─────────────────────────────────────────────────────────────
+
+Q16: I need to report a critical anomaly in my satellite's attitude control system.
+Q17: Our propulsion module has stopped working. This is mission-critical.
+Q18: There is a critical temperature anomaly in the thermal management unit.
+
+
+# ─────────────────────────────────────────────────────────────
+# GROUP 6 — Out-of-Scope Guard
+# Expected:
+# - Query rejection
+# - No tool execution
+# - Safe fallback behavior
+# ─────────────────────────────────────────────────────────────
+
+Q19: what is maths?
+Q20: abcd
+
+
+# ============================================================
+# EXPECTED OUTPUT SUMMARY
+# ============================================================
+#
+# Q1-Q5
+# → SearchKB
+# → Grounded aerospace passages + document citations
+#
+# Q6
+# → ComputeSuccessRate
+# → Falcon 9: 98.4%, 229 missions
+#
+# Q7
+# → ComputeSuccessRate
+# → Falcon Heavy: 93.3%, 9 missions
+#
+# Q8
+# → ComputeSuccessRate
+# → Soyuz: 97.9%, 142 missions
+#
+# Q9
+# → ComputeSuccessRate
+# → Ariane 5: 97.4%, 117 missions
+#
+# Q10
+# → GetLaunchWindow
+# → 2026-10-15, 2028-11-20, Δv 4300 m/s
+#
+# Q11
+# → GetLaunchWindow
+# → 2026-06-15, 2027-01-10, Δv 3200 m/s
+#
+# Q12
+# → GetLaunchWindow
+# → 2028-03-20, 2030-09-15, Δv 6100 m/s
+#
+# Q13
+# → GetPolicy
+# → NASA-STD-8719.14B, 25-year deorbit rule
+#
+# Q14
+# → GetPolicy
+# → ESA ESSB-ST-U-007, passivation guidelines
+#
+# Q15
+# → GetPolicy
+# → ISRO SDMP-01, IADC-aligned debris mitigation
+#
+# Q16-Q18
+# → CreateTicket
+# → TICKET-XXXXXXXX + escalation workflow
+#
+# Q19-Q20
+# → Out-of-Scope Guard
+# → 🚫 Query blocked safely with no tool call
+#
+# ============================================================
+# BONUS TEST — KB Gap Handling
+# ============================================================
+#
+# EXTRA:
+# Tell me about the Chandrayaan-3 lunar landing
+#
+# Expected:
+# - KB relevance failure detected
+# - External search recommendation
+# - Optional escalation workflow
+#
+# ============================================================
+
 # Author
 
 Rudra Pandit
 
 ---
+
 
 # Links
 
